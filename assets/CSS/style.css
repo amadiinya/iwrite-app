@@ -4,13 +4,14 @@
   background-size: cover;
   background-position: top;
   /* position: relative; */
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%, 0 93%);
+  clip-path: polygon(0 1%, 100% 0, 100% 50%, 0 93%);
   }
 
 
 .header-text{
   line-height: 4rem;
+  word-spacing: 0.5rem;
   z-index: 3;
 }
 .navbar-brand{
