@@ -4,14 +4,21 @@
   background-size: cover;
   background-position: top;
   /* position: relative; */
-  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 45%, 0 87%);
-  clip-path: polygon(0 1%, 100% 0, 100% 45%, 0 87%);
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 61%, 0 95%);
+  clip-path: polygon(0 1%, 100% 0, 100% 61%, 0 95%);
   }
 
-
+.head-images{
+  margin-bottom: 7rem !important;
+}
 .header-text{
-  line-height: 4rem;
-  z-index: 3;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 55px;
+  line-height: 67px;
+  
+  color: #FFFFFF;
 }
 .navbar-brand{
   z-index: 3;
