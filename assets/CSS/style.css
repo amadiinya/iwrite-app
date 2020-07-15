@@ -1,7 +1,12 @@
-
-  body{
-    overflow: hidden;
-}
+.header {
+  height: 88vh;
+  background-color: #F9B5B4;
+  background-size: cover;
+  background-position: top;
+  /* position: relative; */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  }
 
 
 .header-text{
