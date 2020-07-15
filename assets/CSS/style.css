@@ -7,7 +7,11 @@
   -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%, 0 93%);
   clip-path: polygon(0 1%, 100% 0, 100% 50%, 0 93%);
   }
+/*     
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%, 0 93%);
+  clip-path: polygon(0 1%, 100% 0, 100% 50%, 0 93%);
 
+*/
 
 .header-text{
   line-height: 4rem;
