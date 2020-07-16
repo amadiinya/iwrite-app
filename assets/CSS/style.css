@@ -1,20 +1,22 @@
+
+
 body{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 .header {
-  height: 95vh;
+  padding-bottom: 1rem;
   width: 100%;
-  background-color: #F9B5B4;;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
   /* position: relative; */
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 59%, 0 95%);
-  clip-path: polygon(0 0, 100% 0, 100% 59%, 0 95%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100%);
   }
 
 .head-images{
-  margin-bottom: 7rem !important;
+  margin-bottom: 5rem !important;
 }
 .header-text{
   font-family: 'Montserrat';
@@ -45,6 +47,12 @@ body{
   height: 3px;
   background-color: #000;
 }
+
+/* About Section  */
+.about-card{
+  margin-top: -3rem;
+}
+
 /*  Features */
 
 .feature1{
@@ -55,6 +63,34 @@ body{
 .feature2{
   margin-top: 12rem !important;
 }
+
+
+
+  .footer-bg{
+    padding-top: 9rem;
+    padding-bottom: 0.8rem;
+    width: 100%;
+    background-color: #F9B5B4;
+    background-size: cover;
+    background-position: top;
+    /* position: relative; */
+    -webkit-clip-path: polygon(0 68%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 68%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .btn{
+      background-color: white;
+      color: #F9B5B4;
+      border: none;
+    }
+
+    .form-control{
+      background-color: #f9b5b4;
+    }
+
+    .form-control::placeholder{
+      color: #fff;
+    }
 
 /*
 .nav-item-css {
