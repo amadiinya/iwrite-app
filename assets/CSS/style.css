@@ -77,8 +77,8 @@ body{
     background-size: cover;
     background-position: top;
     /* position: relative; */
-    -webkit-clip-path: polygon(0 68%, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 68%, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 42%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 42%, 100% 0, 100% 100%, 0% 100%);
     }
 
     .btn{
@@ -136,47 +136,42 @@ body{
 
 
 @media only screen and (max-width: 992px) {
-  .jumbotron-header {
-    font-size: 45px;
-  }
-  .jumbotron-btn {
-    font-size: 20px !important;
-  }
-  .download-bg {
-    padding: 70px 120px;
-  }
+
 }
 
 @media only screen and (max-width: 768px) {
-  .nav-link-css{
-    color: #000 !important;
+  .header-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 40px;
+    line-height: 40px;  
+    color: #fff;
   }
 
-  .nav-logo {
-    font-size: 25px;
+  .profelic-writer{
+    font-size: 1.3rem;
   }
-  .jumbotron-header {
-    font-size: 2rem;
-  }
-  .jumbotron-text {
-    font-size: 16px;
 
+  .about-card{
+    margin-top: -3.6rem;
   }
 }
+
 
 @media only screen and (max-width: 576px){
   .header-text{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500 !important;
-    font-size: 16px;
+    font-size: 21px;
     line-height: 30px;  
     color: #fff;
   }
 
   .head-images{
     margin-bottom: 3rem !important;
-    padding-top: -3rem;
+    padding-top: -2rem;
     margin-top: -6rem;
     width: 100px;
   }
@@ -185,6 +180,21 @@ body{
     margin-top: -1rem;
   }
 
+  .feature1{
+    margin-top: 0rem !important;
+  }
+
+  .feature2{
+    margin-top: 0rem !important;
+  }
+
+  .profelic-writer{
+    font-size: 1.5rem;
+  }
+
+.subscribe-text{
+  font-size: 26px;
+}
 
 }
 
